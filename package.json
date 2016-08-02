@@ -1,0 +1,42 @@
+{
+  "name": "css-parse-file",
+  "version": "1.0.2",
+  "description": "CSS File Parser",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:hikaliv/css-parse-file.git"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "stylesheet",
+    "CSSOM",
+    "光宇广贞",
+    "hikaliv"
+  ],
+  "scripts": {
+    "clean": "echo '整理 npm 各插件间的依赖关系\n' && npm dedupe && npm ls --depth=0 && echo '整理完毕'",
+    "test": "gulp test --gulpfile task/gulpfile.js"
+  },
+  "author": {
+    "name": "Li Bo",
+    "email": "hikaliv@gmail.com",
+    "url": "https://github.com/hikaliv"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hikaliv/css-parse-file/issues"
+  },
+  "homepage": "https://github.com/hikaliv/css-parse-file#readme",
+  "dependencies": {
+    "css": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "chalk": "^1.1.3",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^2.2.0"
+  }
+}
